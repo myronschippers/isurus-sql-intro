@@ -66,5 +66,6 @@ SELECT * FROM "songs" ORDER BY "published" DESC LIMIT 10;
 ------------------------------------------------------------ */
 SELECT * FROM "songs" ORDER BY "published" ASC LIMIT 10;
 
+/* NEW THINGS */
 
-
+SELECT * FROM "songs" WHERE "artist" ILIKE '%red%';
