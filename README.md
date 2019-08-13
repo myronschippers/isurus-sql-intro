@@ -106,11 +106,10 @@ VALUES (357, 'Wonderwall', 'Oasis', '1-1-1996');
 - INSERT multiple records
 
 ```SQL
-INSERT INTO "songs" ("rank", "track", "artist", "published") 
-VALUES (357, 'Wonderwall', 'Oasis', '1-1-1996'),
-(102, 'Under the Bridge', 'Red Hot Chili Peppers', '1-1-1992');
+INSERT INTO "songs" ("rank", "artist", "track", "published")
+VALUES (352, 'The Black Eyed Peas', 'Don''t Punk With My Heart', '1-1-1995'),
+(102, 'Red Hot Chili Peppers', 'Under the Bridge', '1-1-1995');
 ```
-
 
 - `cmd-r` to refresh, our song exists!
 
