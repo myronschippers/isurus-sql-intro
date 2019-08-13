@@ -1,6 +1,6 @@
 # Introduction to SQL
 
-[Code from Lecture](https://github.com/PrimeAcademy/fomalhaut-sql-basics)
+[Code from Lecture](lesson-queries.sql)
 
 ## Why databases?
 - Data persistance
