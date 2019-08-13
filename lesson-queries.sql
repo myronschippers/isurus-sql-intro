@@ -69,3 +69,11 @@ SELECT * FROM "songs" ORDER BY "published" ASC LIMIT 10;
 /* NEW THINGS */
 
 SELECT * FROM "songs" WHERE "artist" ILIKE '%red%';
+
+SELECT * FROM "songs" WHERE "artist" ILIKE '%red';
+
+SELECT * FROM "songs" WHERE "artist" ILIKE 'red%';
+
+DELETE FROM "songs" WHERE "artist" LIKE 'Kanye West';
+
+DROP TABLE "songs";
